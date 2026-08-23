@@ -1,0 +1,2 @@
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/Vsevolod78/sql-basics-free-project-389/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Vsevolod78/sql-basics-free-project-389/actions)
