@@ -8,7 +8,7 @@ CREATE TABLE products (
   stock INTEGER NOT NULL DEFAULT 0 CHECK (stock >= 0),
   rating DECIMAL(3, 1) CHECK (rating >= 0 AND rating <= 5),
   discount DECIMAL(4, 1) CHECK (discount BETWEEN 0 AND 100),
-  created_at TIMESTAMP
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 INSERT INTO products (name, category, brand, sku, price, stock, rating, discount, created_at)
